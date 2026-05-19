@@ -37,7 +37,7 @@ export default function Navbar() {
             className="text-2xl font-bold tracking-tighter"
           >
             <span className="text-white">Shree</span>
-            <span className="text-neon-cyan text-glow">Krishna</span>
+            <span className="text-neon-cyan text-glow">Krishna Advertising</span>
           </motion.div>
         </Link>
 

@@ -31,9 +31,9 @@ export default function ContactSection() {
             
             <div className="space-y-6">
               {[
-                { icon: <MapPin className="text-neon-cyan" />, text: "123 Business Avenue, New Delhi, India" },
-                { icon: <Phone className="text-neon-purple" />, text: "+91 98765 43210" },
-                { icon: <Mail className="text-neon-pink" />, text: "hello@shreekrishna.com" }
+                { icon: <MapPin className="text-neon-cyan" />, text: "Chandigarh Mohali,Punjab" },
+                { icon: <Phone className="text-neon-purple" />, text: "+91 9115729117" },
+                { icon: <Mail className="text-neon-pink" />, text: "shreekrishnaadd911@gmail.com" }
               ].map((item, i) => (
                 <motion.div
                   key={i}

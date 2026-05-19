@@ -30,7 +30,7 @@ export default function Hero() {
           >
             Illuminate Your Brand with <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-pink animate-glow">
-              ShreeKrishna Interprises
+              ShreeKrishna Advertising
             </span>
           </motion.h1>
 

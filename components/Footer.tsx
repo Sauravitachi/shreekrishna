@@ -14,7 +14,7 @@ export default function Footer() {
             <Link href="/" className="inline-block mb-6">
               <div className="text-2xl font-bold tracking-tighter flex items-center gap-1">
                 <span className="text-white">Shree</span>
-                <span className="text-neon-cyan text-glow">Krishna Interprises</span>
+                <span className="text-neon-cyan text-glow">Krishna Advertising</span>
               </div>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
@@ -77,7 +77,7 @@ export default function Footer() {
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} ShreeKrishna Branding Solutions. All rights reserved.
+            &copy; {new Date().getFullYear()} ShreeKrishna Advertising. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-gray-500">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
