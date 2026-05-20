@@ -19,12 +19,22 @@ const fonts = [
   { name: "Dancing", css: "'Dancing Script', cursive" },
   { name: "Marker", css: "'Permanent Marker', cursive" },
   { name: "Inter", css: "var(--font-sans)" },
+  { name: "Allura", css: "'Allura', cursive" },
+  { name: "Funky", css: "'Allura', cursive" },
 ];
 
 export default function NeonCustomizer() {
   const [text, setText] = useState("Good Vibes");
   const [activeColor, setActiveColor] = useState(colors[0]);
   const [activeFont, setActiveFont] = useState(fonts[0]);
+
+  const addFunkySignature = () => {
+    const sig = " — Funky ✨";
+    setText((prev) => (prev.includes(sig) ? prev : prev + sig));
+    const funkyFont = fonts.find((f) => f.name === "Funky") || fonts[0];
+    setActiveFont(funkyFont);
+    setActiveColor(colors[0]);
+  };
 
   return (
     <section id="customizer" className="py-24 relative overflow-hidden bg-black/40">
@@ -72,6 +82,15 @@ export default function NeonCustomizer() {
                 className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-neon-cyan transition-colors"
                 placeholder="Type here..."
               />
+              <div className="mt-3">
+                <button
+                  type="button"
+                  onClick={addFunkySignature}
+                  className="py-2 px-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-600 text-white text-sm font-semibold hover:opacity-90 transition"
+                >
+                  Add Funky Signature
+                </button>
+              </div>
             </div>
 
             {/* Color Picker */}
