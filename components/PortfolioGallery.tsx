@@ -95,7 +95,7 @@ export default function PortfolioGallery() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className={`group relative rounded-3xl overflow-hidden cursor-pointer border border-white/8 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.18)] ${project.colSpan}`}
+              className={`group relative aspect-[4/3] md:aspect-auto rounded-3xl overflow-hidden cursor-pointer border border-white/8 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.18)] ${project.colSpan}`}
               onClick={() => setSelectedProject(project)}
             >
               <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors z-10" />
