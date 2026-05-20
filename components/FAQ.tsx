@@ -22,8 +22,8 @@ const faqs = [
     answer: "Absolutely! You can choose from a variety of fonts, colors, and even backing board shapes (cut-to-shape, square, or invisible). Try our Live Neon Customizer to visualize it.",
   },
   {
-    question: "Is there a warranty on your products?",
-    answer: "Yes, all our LED neon signs and premium acrylic boards come with a standard 1-year warranty covering electrical components.",
+    question: "Is there a guarantee on your products and services?",
+    answer: "Yes, we offer a comprehensive 1-year guarantee on all our products and services. We stand behind our quality craftsmanship and will resolve any issues promptly.",
   },
 ];
 

@@ -31,7 +31,7 @@ export default function ContactSection() {
             
             <div className="space-y-6">
               {[
-                { icon: <MapPin className="text-neon-cyan" />, text: "Chandigarh Mohali,Punjab" },
+                { icon: <MapPin className="text-neon-cyan" />, text: "Mohali industrial area phase 9 319 no plot" },
                 { icon: <Phone className="text-neon-purple" />, text: "+91 9115729117" },
                 { icon: <Mail className="text-neon-pink" />, text: "shreekrishnaadd911@gmail.com" }
               ].map((item, i) => (

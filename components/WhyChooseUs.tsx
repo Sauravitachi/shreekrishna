@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ShieldCheck, Clock, PenTool, IndianRupee, Users } from "lucide-react";
+import { ShieldCheck, Clock, PenTool, IndianRupee, Users, Award } from "lucide-react";
 
 const reasons = [
   {
@@ -28,6 +28,11 @@ const reasons = [
     icon: <Users size={28} className="text-neon-cyan" />,
     title: "Expert Team",
     description: "Years of experience in crafting, cutting, and installing high-end signages.",
+  },
+  {
+    icon: <Award size={28} className="text-neon-pink" />,
+    title: "1-Year Guarantee",
+    description: "We stand by our craftsmanship, offering a full one-year guarantee on all our services.",
   },
 ];
 

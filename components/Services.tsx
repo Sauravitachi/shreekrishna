@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Lightbulb, LayoutPanelLeft, Scissors, Box, Megaphone, Store } from "lucide-react";
+import { Lightbulb, LayoutPanelLeft, Scissors, Box, Megaphone, Store, ShieldCheck } from "lucide-react";
 
 const services = [
   {
@@ -60,10 +60,20 @@ export default function Services() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-gray-400 max-w-2xl mx-auto"
+            className="text-gray-400 max-w-2xl mx-auto mb-6"
           >
             Delivering high-quality, custom-designed physical branding solutions that make you stand out.
           </motion.p>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-xs md:text-sm text-neon-pink font-semibold uppercase tracking-wider shadow-[0_0_15px_rgba(255,0,127,0.1)]"
+          >
+            <ShieldCheck size={16} className="text-neon-pink" />
+            <span>One Year Guarantee On All Services</span>
+          </motion.div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
