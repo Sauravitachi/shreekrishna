@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const categories = ["All", "Neon", "Name Plates", "Acrylic", "MDF", "Commercial"];
 
-const imageFiles = Array.from({ length: 27 }, (_, index) => `/image${index + 1}.jpeg`);
+const imageFiles = Array.from({ length: 32 }, (_, index) => `/image${index + 1}.jpeg`);
 const spanClasses = [
   "col-span-1 md:col-span-2 md:row-span-2",
   "col-span-1 md:col-span-1",
